@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/p_matmul.dir/main.cpp.o  -o p_matmul /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so -lpthread 

@@ -1,0 +1,3 @@
+/root/computer-architecture/p_matmul/Debug/CMakeFiles/rebuild_cache.dir
+/root/computer-architecture/p_matmul/Debug/CMakeFiles/p_matmul.dir
+/root/computer-architecture/p_matmul/Debug/CMakeFiles/edit_cache.dir

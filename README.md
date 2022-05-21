@@ -1,0 +1,3 @@
+If you want to change this Docker image...
+1. change Dockerfile
+2. execute `make` command

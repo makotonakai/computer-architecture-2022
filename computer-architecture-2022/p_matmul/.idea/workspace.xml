@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="p_matmul" targetName="p_matmul" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d4c8ba02-bbf7-4a30-bdf4-b5fa10dcd7a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul.xcodeproj/project.xcworkspace/xcuserdata/nicoroble.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul.xcodeproj/xcuserdata/nicoroble.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../matmul/matmul/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2dmatrixmult-halftrans.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../matrix-multiply.s.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../matrix.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../matrix2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/2dmatrixmult-halftrans.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/2dmatrixmult-instrumented.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_1024_34741" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_12_34680" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_15_64454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_16_34524" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_17_64569" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_2048_35951" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_4_34454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_64_34592" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/arraymultperf_8_34496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/half-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/half-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/half-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/half-2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/half-64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/matrix-half.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/matrix-half.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/matrix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/matrix.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/perf-analyis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/perf-analysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/performance-analyis.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_1024_11789" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_12_11685" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_16_11713" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_2048_41715" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_4_13031" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_64_11745" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/trans-arraymultperf_8_13323" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/true-1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/true-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/true-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/true-2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../perf-analysis/true-64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2dmatrixmult-instrumented" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2dmatrixmult-instrumented.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../2dmatrixmult-instrumented.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2dmatrixmult-instrumented.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2dmatrixmult-instrumented.dSYM/Contents/Resources/DWARF/2dmatrixmult-instrumented" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arraymultperf_11_56136" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arraymultperf_32_56157" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arraymultperf_32_56396" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arraymultperf_32_56401" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arraymultperf_32_56463" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../arrmultcdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../perf-analysis/arrmultcdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../make.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../make.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix" beforeDir="false" afterPath="$PROJECT_DIR$/../../perf-analysis/2dmatrixmult-instrumented" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix-multiply.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../matrix-multiply.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix-multiply2.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../matrix-multiply2.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../matrix.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ogawa-interview.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../temp.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../temp.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../temp.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vecadd.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../vecadd.s" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ezmKydtL" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/p_matmul.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/../p_matmul2/.idea/p_matmul2.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1028" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="p_matmul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="p_matmul" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="p_matmul" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="100" PASS_PARENT_ENVS_2="true" PROJECT_NAME="p_matmul" TARGET_NAME="p_matmul" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="p_matmul" RUN_TARGET_NAME="p_matmul">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4c8ba02-bbf7-4a30-bdf4-b5fa10dcd7a7" name="Default Changelist" comment="" />
+      <created>1561357825611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561357825611</updated>
+      <workItem from="1561357826965" duration="1623000" />
+      <workItem from="1561467623979" duration="6458000" />
+      <workItem from="1562559501604" duration="2308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10389000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32883817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Tail" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32883817" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="CMake" order="13" weight="0.31431535" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Cargo" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
