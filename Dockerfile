@@ -15,6 +15,7 @@ RUN apt-get update \
     && apt-get install -y spim \
     && apt-get install -y python3.7 \
     && apt-get install -y qemu \
+    && apt-get install -y qemu-user \
     && apt-get install -y libc6-armel-cross \
     && apt-get install -y libc6-dev-armel-cross \
     && apt-get install -y binutils-arm-linux-gnueabi \
