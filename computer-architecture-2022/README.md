@@ -1,31 +1,31 @@
 # Environment Setup for Operating Systems and Computer Architecture
 Prof. Rodney Van Meter
 
-## Download Docker
-Mac: https://hub.docker.com/editions/community/docker-ce-desktop-mac
+# Download Docker Desktop
+Mac, Windows, and Linux download:
+https://www.docker.com/products/docker-desktop/
 
-Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows
+# Create a Docker Hub Account
+Create an account at: https://hub.docker.com/signup
+Confirm your email address
+Open Docker Desktop application
+Sign-in through the application (Docker Icon > Sign In)
 
-Ubuntu: https://docs.docker.com/desktop/install/linux-install/
-
-## Create a Docker Hub Account
-1. Create an account at: https://hub.docker.com
-2. Confirm your email address
-3. Sign-in! For macs, you will have a docker icon on the upper-left side of your menu bar.
-Docker Icon > Sign In
 
 ## Pull the Docker Image
 On your terminal, enter the following command: 
 
 ```
-docker pull nikkokun/computer-architecture:latest
+docker pull nyatsume/nyatsume/ostep-for-multiarch:latest
 ```
 
 ## Run the example application
-1. Get the source code from SFC SFS
-2. Unzip the folder
-The directory structure should look like this:
+1. Run the following command
+```
+git clone https://github.com/makotonakai/computer-architecture-2022.git
+```
 
+The directory structure should look like this:
 ```
 /matmul
 /pmatmul 
@@ -33,13 +33,13 @@ The directory structure should look like this:
 /test 
 getting-started.pdf
 ```
-   
-3. Check if all the directories exist!
-4. Run the following command: 
+Check if all the directories exist!
+
+1. Run the following command: 
 
 ```
-cd computer-architecture2019
-docker run -it -v $PWD:/root/computer-architecture/ --privileged nikkokun/computer-architecture:latest /bin/bash
+cd computer-architecture-2022
+docker run -it -v $PWD:/root/computer-architecture/ --privileged nyatsume/nyatsume/ostep-for-multiarch:latest /bin/bash
 ```
 
 This will provide you an Ubuntu 18.04 bash shell. To exit the shell, enter: ctrl+d 5. Double-check if all the directories exist!
