@@ -20,7 +20,7 @@ Sign-in through the application (Docker Icon > Sign In)
 On your terminal, enter the following command: 
 
 ```
-docker pull nyatsume/nyatsume/ostep-for-multiarch:latest
+docker pull nyatsume/ostep-for-multiarch:latest
 ```
 
 ## Run the example application
