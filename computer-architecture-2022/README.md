@@ -37,6 +37,7 @@ The directory structure should look like this:
 /quantum_sim 
 /test 
 getting-started.pdf
+README.md
 ```
 Check if all the directories exist!
 
@@ -62,6 +63,7 @@ It should print out:
 /quantum_sim 
 /test 
 getting-started.pdf
+README.md
 ```
 
 Any changes you make while you are in the Ubuntu shell will reflected on disk! Meaning any changes you make on the files will persist, even if you log out of the shell. This also goes for any changes you make on your host environment.
