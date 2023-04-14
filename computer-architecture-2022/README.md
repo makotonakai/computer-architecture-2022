@@ -39,7 +39,7 @@ Check if all the directories exist!
 
 ```
 cd computer-architecture-2022
-docker run -it -v $PWD:/root/computer-architecture/ --privileged nyatsume/nyatsume/ostep-for-multiarch:latest /bin/bash
+docker run -it -v $PWD:/root/computer-architecture/ --privileged nyatsume/ostep-for-multiarch:latest /bin/bash
 ```
 
 This will provide you an Ubuntu 18.04 bash shell. To exit the shell, enter: ctrl+d 5. Double-check if all the directories exist!
