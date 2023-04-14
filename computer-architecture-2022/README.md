@@ -39,7 +39,7 @@ getting-started.pdf
 
 ```
 cd computer-architecture2019
-docker run -it -v $PWD:/root/computer-architecture/ --privileged nikkokun/computer- architecture:latest /bin/bash
+docker run -it -v $PWD:/root/computer-architecture/ --privileged nikkokun/computer-architecture:latest /bin/bash
 ```
 
 This will provide you an Ubuntu 18.04 bash shell. To exit the shell, enter: ctrl+d 5. Double-check if all the directories exist!
