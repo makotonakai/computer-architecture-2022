@@ -55,9 +55,11 @@ This will provide you an Ubuntu 20.04 bash shell. To exit the shell, enter: ctrl
 ```
 ls -a 
 ```
-It should print out:
+It should print out something like this:
 
 ```
+.
+..
 /matmul
 /pmatmul 
 /quantum_sim 
