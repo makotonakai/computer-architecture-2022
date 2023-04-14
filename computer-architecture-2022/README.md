@@ -3,7 +3,9 @@ Prof. Rodney Van Meter
 
 ## Download Docker
 Mac: https://hub.docker.com/editions/community/docker-ce-desktop-mac
+
 Windows: https://hub.docker.com/editions/community/docker-ce-desktop-windows
+
 Ubuntu: https://docs.docker.com/desktop/install/linux-install/
 
 ## Create a Docker Hub Account
